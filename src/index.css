@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Настройка размеров контейнера и слайдов */
+
+body {
+  background: #f3f3f3;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+/* Кастомизация кнопок навигации (по желанию) */
+.swiper-button-next, .swiper-button-prev {
+  color: #000;
+}
+
+.swiper-pagination-bullet {
+  background-color: #000;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #0077cc;
+}
