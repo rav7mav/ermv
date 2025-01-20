@@ -106,8 +106,8 @@ const App = () => {
       <Slider excursions={excursions} />
       <About />
       <ExcursionsList excursions={excursions} />
-      <SearchBar />
-      <Reviews reviews={reviews} />
+      {/* <SearchBar /> */}
+      {/* <Reviews reviews={reviews} /> */}
       <SubscriptionForm />
       <Footer />
     </div>
